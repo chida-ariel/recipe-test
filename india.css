@@ -1,0 +1,55 @@
+ @font-face {
+        font-family: 'outfit'; /* A unique name for your font */
+        src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+ }
+ @font-face {
+        font-family: 'young-serif'; /* A unique name for your font */
+        src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    width: 80%;
+    max-width: 1440px;
+    min-width: 375px;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color:  hsl(0, 0%, 100%);
+}
+#time {
+    color: hsl(332, 51%, 32%);
+}
+
+.book {
+    color:  hsl(14, 45%, 36%)
+}
+#wave {
+    border-radius: 10px;
+    background-size: cover;
+}
+body{
+background-size: 20;
+    background-color:hsl(330, 100%, 98%) ;
+    padding:3rem 3rem;
+    font-family: outfit;
+}
+.section1{
+    background-color: rgb(243, 217, 222);
+    border-radius: 10px;
+
+}
+.nutrients{
+    display: flex;
+    justify-content: space-between;
+}
+.fly{
+    color: hsl(14, 45%, 36%);
+}
+h1,
+h2,
+h4{
+    font-family: young-serif;
+}
